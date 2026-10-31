@@ -1,0 +1,23 @@
+# Backend-specific ignore
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+*.sqlite3
+jobguard.db
+.env
+
+# User Uploaded Resumes
+uploads/resumes/*
+!uploads/resumes/.gitkeep
+app/uploads/resumes/*
+!app/uploads/resumes/.gitkeep
+*.pdf
+*.docx
+*.doc
+
